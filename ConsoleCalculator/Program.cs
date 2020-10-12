@@ -87,14 +87,6 @@ namespace ConsoleCalculator
                 // make operations
                 double firstNumberDouble = Double.Parse(firstNumberString);
                 double secondNumberDouble = Double.Parse(secondNumberString);
-                //if (firstCharIsNegativeForFirstNumber)
-                //{
-                //    firstNumberDouble = -firstNumberDouble;
-                //}
-                //if (firstCharIsNegativeForSecondNumber)
-                //{
-                //    secondNumberDouble = -secondNumberDouble;
-                //}
 
                 double result;
                 String resultDivision;
@@ -134,10 +126,6 @@ namespace ConsoleCalculator
                 if (strNumber.Trim().Equals(""))
                 {
                     isNumber = false;
-                }
-                else if(strNumber.Substring(0, 1) == "-")
-                {
-
                 }
                 else
                 {
