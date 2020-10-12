@@ -87,6 +87,14 @@ namespace ConsoleCalculator
                 // make operations
                 double firstNumberDouble = Double.Parse(firstNumberString);
                 double secondNumberDouble = Double.Parse(secondNumberString);
+                //if (firstCharIsNegativeForFirstNumber)
+                //{
+                //    firstNumberDouble = -firstNumberDouble;
+                //}
+                //if (firstCharIsNegativeForSecondNumber)
+                //{
+                //    secondNumberDouble = -secondNumberDouble;
+                //}
 
                 double result;
                 String resultDivision;
